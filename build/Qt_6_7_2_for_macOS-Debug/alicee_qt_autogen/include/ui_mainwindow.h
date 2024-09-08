@@ -28,6 +28,8 @@ public:
     QSlider *horizontalSlider_X;
     QLabel *label_X;
     QLCDNumber *lcdNumber;
+    QSlider *horizontalSlider_Y;
+    QLabel *label_Y;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -49,6 +51,13 @@ public:
         lcdNumber = new QLCDNumber(centralwidget);
         lcdNumber->setObjectName("lcdNumber");
         lcdNumber->setGeometry(QRect(200, 120, 431, 191));
+        horizontalSlider_Y = new QSlider(centralwidget);
+        horizontalSlider_Y->setObjectName("horizontalSlider_Y");
+        horizontalSlider_Y->setGeometry(QRect(60, 480, 711, 25));
+        horizontalSlider_Y->setOrientation(Qt::Orientation::Horizontal);
+        label_Y = new QLabel(centralwidget);
+        label_Y->setObjectName("label_Y");
+        label_Y->setGeometry(QRect(30, 480, 21, 16));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -67,6 +76,7 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         label_X->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
+        label_Y->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
     } // retranslateUi
 
 };

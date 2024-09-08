@@ -19,11 +19,12 @@ public:
 
 
 public slots:
-    void setValue(int value);
+    void updateDisplay();
 
 
 private:
     Ui::MainWindow *ui;
-    int m_value;
+    int x_value = 0;
+    int y_value = 0;
 };
 #endif // MAINWINDOW_H

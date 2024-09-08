@@ -44,3 +44,17 @@
 86	612	1725823120520401581	CMakeFiles/alicee_qt.dir/main.cpp.o	a294764d8ca32182
 86	637	1725823120520488705	CMakeFiles/alicee_qt.dir/mainwindow.cpp.o	86beac91af7399b2
 637	705	1725823121070793970	alicee_qt.app/Contents/MacOS/alicee_qt	8402e6e818e561b4
+4	33	1725823566115235992	alicee_qt_autogen/timestamp	16664bf3d429d049
+4	33	1725823566115235992	alicee_qt_autogen/mocs_compilation.cpp	16664bf3d429d049
+4	33	1725823566115235992	/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/timestamp	16664bf3d429d049
+4	33	1725823566115235992	/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/mocs_compilation.cpp	16664bf3d429d049
+33	694	1725823566143825704	CMakeFiles/alicee_qt.dir/mainwindow.cpp.o	86beac91af7399b2
+694	819	1725823566804805193	alicee_qt.app/Contents/MacOS/alicee_qt	8402e6e818e561b4
+5	107	1725824172410838000	alicee_qt_autogen/timestamp	16664bf3d429d049
+5	107	1725824172410838000	alicee_qt_autogen/mocs_compilation.cpp	16664bf3d429d049
+5	107	1725824172410838000	/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/timestamp	16664bf3d429d049
+5	107	1725824172410838000	/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/mocs_compilation.cpp	16664bf3d429d049
+107	877	1725824172419420748	CMakeFiles/alicee_qt.dir/main.cpp.o	a294764d8ca32182
+107	913	1725824172419225696	CMakeFiles/alicee_qt.dir/alicee_qt_autogen/mocs_compilation.cpp.o	6289fd876b93abb0
+107	950	1725824172419534713	CMakeFiles/alicee_qt.dir/mainwindow.cpp.o	86beac91af7399b2
+950	1056	1725824173262534947	alicee_qt.app/Contents/MacOS/alicee_qt	8402e6e818e561b4

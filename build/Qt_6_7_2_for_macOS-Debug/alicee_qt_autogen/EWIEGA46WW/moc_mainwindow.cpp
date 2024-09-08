@@ -36,9 +36,8 @@ namespace {
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::stringData(
     "MainWindow",
-    "setValue",
-    "",
-    "value"
+    "updateDisplay",
+    ""
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -59,10 +58,10 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSMainWindowENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   20,    2, 0x0a,    1 /* Public */,
+       1,    0,   20,    2, 0x0a,    1 /* Public */,
 
  // slots: parameters
-    QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -76,9 +75,8 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMainWindowENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>,
-        // method 'setValue'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<int, std::false_type>
+        // method 'updateDisplay'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -89,10 +87,11 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->setValue((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 0: _t->updateDisplay(); break;
         default: ;
         }
     }
+    (void)_a;
 }
 
 const QMetaObject *MainWindow::metaObject() const
