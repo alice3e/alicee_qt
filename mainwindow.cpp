@@ -2,13 +2,14 @@
 #include "./ui_mainwindow.h"
 #include "lib/qcustomplot.h"
 
-#include <algorithm>
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    setupLayout();
 
     // Соединяем слайдер с методом, который обновляет lcdNumber
     connect(ui->horizontalSlider_X, &QSlider::valueChanged, this, [this](int value) {
@@ -25,6 +26,10 @@ MainWindow::MainWindow(QWidget *parent)
     });
 
     plotGraph();
+
+
+
+
 }
 
 MainWindow::~MainWindow()
@@ -70,3 +75,43 @@ void MainWindow::updateGraph()
 {
 
 }
+
+void MainWindow::setupLayout()
+{
+    // Создание и установка макета для центрального виджета
+    QWidget *centralWidget = new QWidget(this);
+    QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget);
+
+    QVBoxLayout *plotlayout = new QVBoxLayout(centralWidget);
+    QVBoxLayout *sliderslayout = new QVBoxLayout(centralWidget);
+    QHBoxLayout *X_layout = new QHBoxLayout(centralWidget);
+    QHBoxLayout *Y_layout = new QHBoxLayout(centralWidget);
+
+    // Добавление виджетов в макет
+    plotlayout->addWidget(ui->customPlot);
+
+    X_layout->addWidget(ui->label_X);
+    X_layout->addWidget(ui->horizontalSlider_X);
+    X_layout->addWidget(ui->lcdNumber_X);
+
+
+    Y_layout->addWidget(ui->label_Y);
+    Y_layout->addWidget(ui->horizontalSlider_Y);
+    Y_layout->addWidget(ui->lcdNumber_Y);
+
+
+    sliderslayout->addLayout(X_layout);
+    sliderslayout->addLayout(Y_layout);
+
+    mainLayout->addLayout(plotlayout);
+    mainLayout->addLayout(sliderslayout);
+
+    // Установка макета
+    centralWidget->setLayout(mainLayout);
+    setCentralWidget(centralWidget);
+
+    // Обновление размеров
+    centralWidget->update();
+    centralWidget->resize(centralWidget->sizeHint());
+}
+

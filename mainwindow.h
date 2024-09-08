@@ -18,6 +18,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void plotGraph();
+    void setupLayout();
 
 public slots:
     void updateDisplay_X();
