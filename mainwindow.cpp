@@ -13,13 +13,15 @@ MainWindow::MainWindow(QWidget *parent)
     // Соединяем слайдер с методом, который обновляет lcdNumber
     connect(ui->horizontalSlider_X, &QSlider::valueChanged, this, [this](int value) {
         x_value = value;
-        updateDisplay();
+        updateDisplay_X();
+        plotGraph();
     });
 
     // Запись [this](int value) — это лямбда-функция в C++
     connect(ui->horizontalSlider_Y, &QSlider::valueChanged, this, [this](int value) {
         y_value = value;
-        updateDisplay();
+        updateDisplay_Y();
+        plotGraph();
     });
 
     plotGraph();
@@ -30,22 +32,26 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::updateDisplay()
+void MainWindow::updateDisplay_X()
 {
-    int max_value = std::max(x_value,y_value);
-    ui->lcdNumber->display(max_value);
+    ui->lcdNumber_X->display(x_value / 10.0);
 }
 
+void MainWindow::updateDisplay_Y()
+{
+    ui->lcdNumber_Y->display(y_value / 10.0);
+}
 
 void MainWindow::plotGraph()
 {
     // Создаем график на QCustomPlot
     QVector<double> x(101), y(101); // 101 точка для x^2
-
+    double b = x_value / 10.0;
+    double a = y_value / 10.0;
     for (int i=0; i<101; ++i)
     {
         x[i] = i - 50;  // Значения x от -50 до 50
-        y[i] = x[i] * x[i];  // y = x^2
+        y[i] = a*x[i] + b;  // y = a*x + b
     }
 
     // Добавляем данные на график
@@ -53,8 +59,8 @@ void MainWindow::plotGraph()
     ui->customPlot->graph(0)->setData(x, y);
 
     // Устанавливаем диапазоны осей
-    ui->customPlot->xAxis->setRange(-50, 50);
-    ui->customPlot->yAxis->setRange(0, 2500);
+    ui->customPlot->xAxis->setRange(-5, 5);
+    ui->customPlot->yAxis->setRange(-5, 5);
 
     // Отрисовываем график
     ui->customPlot->replot();

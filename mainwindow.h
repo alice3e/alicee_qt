@@ -20,7 +20,8 @@ public:
     void plotGraph();
 
 public slots:
-    void updateDisplay();
+    void updateDisplay_X();
+    void updateDisplay_Y();
     void updateGraph();
 
 private:
