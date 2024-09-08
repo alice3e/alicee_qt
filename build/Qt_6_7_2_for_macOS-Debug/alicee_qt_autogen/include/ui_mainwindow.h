@@ -18,6 +18,7 @@
 #include <QtWidgets/QSlider>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
+#include "qcustomplot.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -30,6 +31,7 @@ public:
     QLCDNumber *lcdNumber;
     QSlider *horizontalSlider_Y;
     QLabel *label_Y;
+    QCustomPlot *customPlot;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -58,10 +60,14 @@ public:
         label_Y = new QLabel(centralwidget);
         label_Y->setObjectName("label_Y");
         label_Y->setGeometry(QRect(30, 480, 21, 16));
+        customPlot = new QCustomPlot(centralwidget);
+        customPlot->setObjectName("customPlot");
+        customPlot->setEnabled(true);
+        customPlot->setGeometry(QRect(180, 40, 451, 261));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 24));
+        menubar->setGeometry(QRect(0, 0, 800, 37));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");

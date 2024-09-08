@@ -10,6 +10,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Добавляем необходимые модули Qt
+
+
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets PrintSupport)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets PrintSupport)
 
@@ -42,6 +44,8 @@ endif()
 
 # Связываем проект с модулями Widgets и PrintSupport
 target_link_libraries(alicee_qt PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::PrintSupport)
+include_directories(${CMAKE_SOURCE_DIR}/lib)
+
 
 set_target_properties(alicee_qt PROPERTIES
     MACOSX_BUNDLE TRUE

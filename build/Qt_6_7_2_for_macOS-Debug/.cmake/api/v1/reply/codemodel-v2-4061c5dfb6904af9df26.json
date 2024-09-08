@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-7a9a8ab5fc99c0e5537a.json",
+					"jsonFile" : "directory-.-Debug-f94b3be2e66545532432.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "alicee_qt::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-alicee_qt-Debug-e71d4b69f128cf78418d.json",
+					"jsonFile" : "target-alicee_qt-Debug-568b071d649c8c828e45.json",
 					"name" : "alicee_qt",
 					"projectIndex" : 0
 				},

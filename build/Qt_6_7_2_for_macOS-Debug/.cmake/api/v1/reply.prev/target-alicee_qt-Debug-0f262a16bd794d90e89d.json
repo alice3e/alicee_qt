@@ -21,7 +21,8 @@
 			"find_package",
 			"find_dependency",
 			"_qt_internal_find_qt_dependencies",
-			"_qt_internal_find_third_party_dependencies"
+			"_qt_internal_find_third_party_dependencies",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -52,7 +53,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 30,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -76,19 +77,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 70,
+				"line" : 54,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 52,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
 				"command" : 8,
 				"file" : 1,
-				"line" : 13,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
@@ -308,6 +309,12 @@
 				"file" : 16,
 				"line" : 96,
 				"parent" : 47
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
 			}
 		]
 	},
@@ -369,6 +376,10 @@
 					"path" : "/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include"
 				},
 				{
+					"backtrace" : 49,
+					"path" : "/Users/alicee/Desktop/Work_Main/alicee_qt/lib"
+				},
+				{
 					"backtrace" : 14,
 					"isSystem" : true,
 					"path" : "/Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers"
@@ -421,11 +432,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "alicee_qt_autogen::@6890427a1f51a3e7e1df"
+			"id" : "alicee_qt_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "alicee_qt_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "alicee_qt_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "alicee_qt::@6890427a1f51a3e7e1df",

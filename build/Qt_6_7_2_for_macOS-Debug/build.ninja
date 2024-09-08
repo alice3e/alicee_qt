@@ -53,7 +53,7 @@ build CMakeFiles/alicee_qt.dir/alicee_qt_autogen/mocs_compilation.cpp.o: CXX_COM
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/alicee_qt.dir/alicee_qt_autogen/mocs_compilation.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alicee/Qt/6.7.2/macos/lib -isystem /Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alicee/Qt/6.7.2/macos/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers
+  INCLUDES = -I/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include -I/Users/alicee/Desktop/Work_Main/alicee_qt/lib -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alicee/Qt/6.7.2/macos/lib -isystem /Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alicee/Qt/6.7.2/macos/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers
   OBJECT_DIR = CMakeFiles/alicee_qt.dir
   OBJECT_FILE_DIR = CMakeFiles/alicee_qt.dir/alicee_qt_autogen
 
@@ -61,7 +61,7 @@ build CMakeFiles/alicee_qt.dir/main.cpp.o: CXX_COMPILER__alicee_qt_unscanned_Deb
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/alicee_qt.dir/main.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alicee/Qt/6.7.2/macos/lib -isystem /Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alicee/Qt/6.7.2/macos/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers
+  INCLUDES = -I/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include -I/Users/alicee/Desktop/Work_Main/alicee_qt/lib -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alicee/Qt/6.7.2/macos/lib -isystem /Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alicee/Qt/6.7.2/macos/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers
   OBJECT_DIR = CMakeFiles/alicee_qt.dir
   OBJECT_FILE_DIR = CMakeFiles/alicee_qt.dir
 
@@ -69,7 +69,7 @@ build CMakeFiles/alicee_qt.dir/mainwindow.cpp.o: CXX_COMPILER__alicee_qt_unscann
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/alicee_qt.dir/mainwindow.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alicee/Qt/6.7.2/macos/lib -isystem /Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alicee/Qt/6.7.2/macos/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers
+  INCLUDES = -I/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include -I/Users/alicee/Desktop/Work_Main/alicee_qt/lib -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alicee/Qt/6.7.2/macos/lib -isystem /Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alicee/Qt/6.7.2/macos/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers
   OBJECT_DIR = CMakeFiles/alicee_qt.dir
   OBJECT_FILE_DIR = CMakeFiles/alicee_qt.dir
 
@@ -77,7 +77,7 @@ build CMakeFiles/alicee_qt.dir/lib/qcustomplot.cpp.o: CXX_COMPILER__alicee_qt_un
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/alicee_qt.dir/lib/qcustomplot.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alicee/Qt/6.7.2/macos/lib -isystem /Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alicee/Qt/6.7.2/macos/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers
+  INCLUDES = -I/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include -I/Users/alicee/Desktop/Work_Main/alicee_qt/lib -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alicee/Qt/6.7.2/macos/lib -isystem /Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alicee/Qt/6.7.2/macos/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers
   OBJECT_DIR = CMakeFiles/alicee_qt.dir
   OBJECT_FILE_DIR = CMakeFiles/alicee_qt.dir/lib
 

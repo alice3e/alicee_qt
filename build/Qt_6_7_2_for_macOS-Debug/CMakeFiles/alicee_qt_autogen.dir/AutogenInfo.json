@@ -380,6 +380,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/Users/alicee/Desktop/Work_Main/alicee_qt/lib",
 		"/Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers",
 		"/Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework",
 		"/Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang",
