@@ -332,6 +332,19 @@
 		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake",
 		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake",
 		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
+		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersion.cmake",
+		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfigVersionImpl.cmake",
+		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportConfig.cmake",
+		"/Users/alicee/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportDependencies.cmake",
+		"/Users/alicee/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindCups.cmake",
+		"/Users/alicee/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"/Users/alicee/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets.cmake",
+		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportTargets-relwithdebinfo.cmake",
+		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportAdditionalTargetInfo.cmake",
+		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessTargets.cmake",
+		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake",
 		"/Users/alicee/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/Users/alicee/Qt/6.7.2/macos/lib/cmake/Qt6/macos/Info.plist.app.in"
 	],
@@ -342,6 +355,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/alicee/Desktop/Work_Main/alicee_qt/lib/qcustomplot.h",
+			"MU",
+			"ZJOKMXDKB7/moc_qcustomplot.cpp",
+			null
+		],
+		[
 			"/Users/alicee/Desktop/Work_Main/alicee_qt/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -351,7 +370,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_PRINTSUPPORT_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -369,8 +388,10 @@
 		"/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework",
 		"/Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers",
 		"/Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework",
-		"/usr/include",
-		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include"
+		"/Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers",
+		"/Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include",
+		"/usr/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -405,6 +426,11 @@
 	"SETTINGS_FILE" : "/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/CMakeFiles/alicee_qt_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/alicee/Desktop/Work_Main/alicee_qt/lib/qcustomplot.cpp",
+			"MU",
+			null
+		],
 		[ "/Users/alicee/Desktop/Work_Main/alicee_qt/main.cpp", "MU", null ],
 		[
 			"/Users/alicee/Desktop/Work_Main/alicee_qt/mainwindow.cpp",

@@ -50,7 +50,7 @@ public:
         label_X->setGeometry(QRect(30, 420, 21, 16));
         lcdNumber = new QLCDNumber(centralwidget);
         lcdNumber->setObjectName("lcdNumber");
-        lcdNumber->setGeometry(QRect(200, 120, 431, 191));
+        lcdNumber->setGeometry(QRect(250, 320, 301, 91));
         horizontalSlider_Y = new QSlider(centralwidget);
         horizontalSlider_Y->setObjectName("horizontalSlider_Y");
         horizontalSlider_Y->setGeometry(QRect(60, 480, 711, 25));
