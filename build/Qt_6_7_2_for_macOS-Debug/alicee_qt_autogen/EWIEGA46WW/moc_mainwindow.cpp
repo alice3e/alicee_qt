@@ -41,7 +41,7 @@ constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::string
     "updateDisplay_X",
     "",
     "updateDisplay_Y",
-    "updateGraph"
+    "updateDisplay_scale"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -87,7 +87,7 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'updateDisplay_Y'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'updateGraph'
+        // method 'updateDisplay_scale'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -101,7 +101,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->updateDisplay_X(); break;
         case 1: _t->updateDisplay_Y(); break;
-        case 2: _t->updateGraph(); break;
+        case 2: _t->updateDisplay_scale(); break;
         default: ;
         }
     }

@@ -23,11 +23,12 @@ public:
 public slots:
     void updateDisplay_X();
     void updateDisplay_Y();
-    void updateGraph();
+    void updateDisplay_scale();
 
 private:
     Ui::MainWindow *ui;
     int x_value = 0;
     int y_value = 0;
+    long long scale_value = 1;
 };
 #endif // MAINWINDOW_H

@@ -34,7 +34,10 @@ public:
     QLCDNumber *lcdNumber_Y;
     QSlider *horizontalSlider_Y;
     QCustomPlot *customPlot;
-    QComboBox *comboBox;
+    QComboBox *function_menu_combo_box;
+    QSlider *horizontalSlider_scale;
+    QLCDNumber *lcdNumber_scale;
+    QLabel *label_scale;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -74,12 +77,22 @@ public:
         customPlot->setObjectName("customPlot");
         customPlot->setEnabled(true);
         customPlot->setGeometry(QRect(141, 21, 499, 349));
-        comboBox = new QComboBox(centralwidget);
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->setObjectName("comboBox");
-        comboBox->setGeometry(QRect(100, 650, 103, 32));
+        function_menu_combo_box = new QComboBox(centralwidget);
+        function_menu_combo_box->addItem(QString());
+        function_menu_combo_box->addItem(QString());
+        function_menu_combo_box->addItem(QString());
+        function_menu_combo_box->setObjectName("function_menu_combo_box");
+        function_menu_combo_box->setGeometry(QRect(230, 630, 103, 32));
+        horizontalSlider_scale = new QSlider(centralwidget);
+        horizontalSlider_scale->setObjectName("horizontalSlider_scale");
+        horizontalSlider_scale->setGeometry(QRect(50, 550, 160, 25));
+        horizontalSlider_scale->setOrientation(Qt::Orientation::Horizontal);
+        lcdNumber_scale = new QLCDNumber(centralwidget);
+        lcdNumber_scale->setObjectName("lcdNumber_scale");
+        lcdNumber_scale->setGeometry(QRect(240, 550, 64, 23));
+        label_scale = new QLabel(centralwidget);
+        label_scale->setObjectName("label_scale");
+        label_scale->setGeometry(QRect(0, 550, 58, 16));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -97,12 +110,13 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        label_X->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
-        label_Y->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
-        comboBox->setItemText(0, QCoreApplication::translate("MainWindow", "New Item", nullptr));
-        comboBox->setItemText(1, QCoreApplication::translate("MainWindow", "New Item", nullptr));
-        comboBox->setItemText(2, QCoreApplication::translate("MainWindow", "New Item", nullptr));
+        label_X->setText(QCoreApplication::translate("MainWindow", "B", nullptr));
+        label_Y->setText(QCoreApplication::translate("MainWindow", "A", nullptr));
+        function_menu_combo_box->setItemText(0, QCoreApplication::translate("MainWindow", "New Item", nullptr));
+        function_menu_combo_box->setItemText(1, QCoreApplication::translate("MainWindow", "New Item", nullptr));
+        function_menu_combo_box->setItemText(2, QCoreApplication::translate("MainWindow", "New Item", nullptr));
 
+        label_scale->setText(QCoreApplication::translate("MainWindow", "Scale", nullptr));
     } // retranslateUi
 
 };
