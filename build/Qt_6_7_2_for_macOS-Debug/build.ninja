@@ -81,6 +81,14 @@ build CMakeFiles/alicee_qt.dir/lib/qcustomplot.cpp.o: CXX_COMPILER__alicee_qt_un
   OBJECT_DIR = CMakeFiles/alicee_qt.dir
   OBJECT_FILE_DIR = CMakeFiles/alicee_qt.dir/lib
 
+build CMakeFiles/alicee_qt.dir/login_form.cpp.o: CXX_COMPILER__alicee_qt_unscanned_Debug /Users/alicee/Desktop/Work_Main/alicee_qt/login_form.cpp || cmake_object_order_depends_target_alicee_qt
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/alicee_qt.dir/login_form.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/include -I/Users/alicee/Desktop/Work_Main/alicee_qt/lib -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Headers -iframework /Users/alicee/Qt/6.7.2/macos/lib -isystem /Users/alicee/Qt/6.7.2/macos/mkspecs/macx-clang -isystem /Users/alicee/Qt/6.7.2/macos/include -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Headers -isystem /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Headers
+  OBJECT_DIR = CMakeFiles/alicee_qt.dir
+  OBJECT_FILE_DIR = CMakeFiles/alicee_qt.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target alicee_qt
@@ -89,7 +97,7 @@ build CMakeFiles/alicee_qt.dir/lib/qcustomplot.cpp.o: CXX_COMPILER__alicee_qt_un
 #############################################
 # Link the executable alicee_qt.app/Contents/MacOS/alicee_qt
 
-build alicee_qt.app/Contents/MacOS/alicee_qt: CXX_EXECUTABLE_LINKER__alicee_qt_Debug CMakeFiles/alicee_qt.dir/alicee_qt_autogen/mocs_compilation.cpp.o CMakeFiles/alicee_qt.dir/main.cpp.o CMakeFiles/alicee_qt.dir/mainwindow.cpp.o CMakeFiles/alicee_qt.dir/lib/qcustomplot.cpp.o | /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Versions/A/QtPrintSupport /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/QtGui /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/QtCore /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libcups.tbd || alicee_qt_autogen alicee_qt_autogen_timestamp_deps
+build alicee_qt.app/Contents/MacOS/alicee_qt: CXX_EXECUTABLE_LINKER__alicee_qt_Debug CMakeFiles/alicee_qt.dir/alicee_qt_autogen/mocs_compilation.cpp.o CMakeFiles/alicee_qt.dir/main.cpp.o CMakeFiles/alicee_qt.dir/mainwindow.cpp.o CMakeFiles/alicee_qt.dir/lib/qcustomplot.cpp.o CMakeFiles/alicee_qt.dir/login_form.cpp.o | /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Versions/A/QtPrintSupport /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/QtGui /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/QtCore /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libcups.tbd || alicee_qt_autogen alicee_qt_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/alicee/Qt/6.7.2/macos/lib  /Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Versions/A/QtPrintSupport  /Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/alicee/Qt/6.7.2/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/alicee/Qt/6.7.2/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework OpenGL  -framework AGL  -framework AppKit  -framework ImageIO  -framework Metal  -framework ApplicationServices  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/libcups.tbd
   LINK_PATH = -F/Users/alicee/Qt/6.7.2/macos/lib
@@ -175,7 +183,7 @@ build alicee_qt_autogen_timestamp_deps: phony
 #############################################
 # Utility command for alicee_qt_autogen
 
-build alicee_qt_autogen: phony CMakeFiles/alicee_qt_autogen alicee_qt_autogen/include/ui_mainwindow.h alicee_qt_autogen/timestamp alicee_qt_autogen/mocs_compilation.cpp alicee_qt_autogen_timestamp_deps
+build alicee_qt_autogen: phony CMakeFiles/alicee_qt_autogen alicee_qt_autogen/include/ui_mainwindow.h alicee_qt_autogen/include/ui_login_form.h alicee_qt_autogen/timestamp alicee_qt_autogen/mocs_compilation.cpp alicee_qt_autogen_timestamp_deps
 
 
 #############################################
@@ -192,7 +200,7 @@ build alicee_qt_autogen/timestamp alicee_qt_autogen/mocs_compilation.cpp | ${cma
 #############################################
 # Phony custom command for CMakeFiles/alicee_qt_autogen
 
-build CMakeFiles/alicee_qt_autogen alicee_qt_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/alicee_qt_autogen ${cmake_ninja_workdir}alicee_qt_autogen/include/ui_mainwindow.h: phony alicee_qt_autogen/timestamp || alicee_qt_autogen_timestamp_deps
+build CMakeFiles/alicee_qt_autogen alicee_qt_autogen/include/ui_mainwindow.h alicee_qt_autogen/include/ui_login_form.h | ${cmake_ninja_workdir}CMakeFiles/alicee_qt_autogen ${cmake_ninja_workdir}alicee_qt_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}alicee_qt_autogen/include/ui_login_form.h: phony alicee_qt_autogen/timestamp || alicee_qt_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

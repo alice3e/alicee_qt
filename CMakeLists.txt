@@ -29,6 +29,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(alicee_qt
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        login_form.h login_form.cpp login_form.ui
     )
 else()
     if(ANDROID)

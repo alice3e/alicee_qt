@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QLCDNumber>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
@@ -33,6 +34,7 @@ public:
     QLCDNumber *lcdNumber_Y;
     QSlider *horizontalSlider_Y;
     QCustomPlot *customPlot;
+    QComboBox *comboBox;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -40,7 +42,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(800, 743);
         MainWindow->setMinimumSize(QSize(400, 400));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
@@ -72,6 +74,12 @@ public:
         customPlot->setObjectName("customPlot");
         customPlot->setEnabled(true);
         customPlot->setGeometry(QRect(141, 21, 499, 349));
+        comboBox = new QComboBox(centralwidget);
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->setObjectName("comboBox");
+        comboBox->setGeometry(QRect(100, 650, 103, 32));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -91,6 +99,10 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         label_X->setText(QCoreApplication::translate("MainWindow", "X", nullptr));
         label_Y->setText(QCoreApplication::translate("MainWindow", "Y", nullptr));
+        comboBox->setItemText(0, QCoreApplication::translate("MainWindow", "New Item", nullptr));
+        comboBox->setItemText(1, QCoreApplication::translate("MainWindow", "New Item", nullptr));
+        comboBox->setItemText(2, QCoreApplication::translate("MainWindow", "New Item", nullptr));
+
     } // retranslateUi
 
 };

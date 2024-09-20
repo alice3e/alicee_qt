@@ -101,6 +101,8 @@ alicee_qt_autogen/timestamp: \
 	/Users/alicee/Desktop/Work_Main/alicee_qt/build/Qt_6_7_2_for_macOS-Debug/alicee_qt_autogen/moc_predefs.h \
 	/Users/alicee/Desktop/Work_Main/alicee_qt/lib/qcustomplot.cpp \
 	/Users/alicee/Desktop/Work_Main/alicee_qt/lib/qcustomplot.h \
+	/Users/alicee/Desktop/Work_Main/alicee_qt/login_form.cpp \
+	/Users/alicee/Desktop/Work_Main/alicee_qt/login_form.h \
 	/Users/alicee/Desktop/Work_Main/alicee_qt/main.cpp \
 	/Users/alicee/Desktop/Work_Main/alicee_qt/mainwindow.cpp \
 	/Users/alicee/Desktop/Work_Main/alicee_qt/mainwindow.h \
@@ -540,8 +542,11 @@ alicee_qt_autogen/timestamp: \
 	/Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Versions/A/Headers/qtprintsupportglobal.h \
 	/Users/alicee/Qt/6.7.2/macos/lib/QtPrintSupport.framework/Versions/A/Headers/qtprintsupportversion.h \
 	/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QCommonStyle \
+	/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
 	/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLayout \
+	/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLineEdit \
 	/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+	/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
 	/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QScrollerProperties \
 	/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
 	/Users/alicee/Qt/6.7.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QtWidgets \
@@ -918,5 +923,6 @@ alicee_qt_autogen/timestamp: \
 	/Users/alicee/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake \
 	/Users/alicee/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/Darwin.cmake \
 	/Users/alicee/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
+	/Users/alicee/Desktop/Work_Main/alicee_qt/login_form.ui \
 	/Users/alicee/Desktop/Work_Main/alicee_qt/mainwindow.ui \
 	/Users/alicee/Qt/Tools/CMake/CMake.app/Contents/bin/cmake

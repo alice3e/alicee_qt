@@ -361,6 +361,12 @@
 			null
 		],
 		[
+			"/Users/alicee/Desktop/Work_Main/alicee_qt/login_form.h",
+			"MU",
+			"EWIEGA46WW/moc_login_form.cpp",
+			null
+		],
+		[
 			"/Users/alicee/Desktop/Work_Main/alicee_qt/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -429,6 +435,11 @@
 	[
 		[
 			"/Users/alicee/Desktop/Work_Main/alicee_qt/lib/qcustomplot.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/alicee/Desktop/Work_Main/alicee_qt/login_form.cpp",
 			"MU",
 			null
 		],
