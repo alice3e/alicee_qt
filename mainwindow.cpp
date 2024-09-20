@@ -2,7 +2,6 @@
 #include "./ui_mainwindow.h"
 #include "lib/qcustomplot.h"
 #include <cmath>
-#include <algorithm>
 #include "math.h"
 
 const long double E = 2.7182;
@@ -12,7 +11,10 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+
     ui->setupUi(this);
+    this->resize(500, 900);
+    this->setWindowTitle("Desmos курильщика");
     setupLayout();
 
     // Соединяем слайдер с методом, который обновляет lcdNumber
